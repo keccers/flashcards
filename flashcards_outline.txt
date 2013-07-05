@@ -31,7 +31,7 @@
 #class Controller
 #--initialized with deck, view
 
-#CONTROLLER METHODS:
+#CONTROLLER METHODS: Things we need the controller to do. 
 
 #run
 #--accept a command from the user as a parameter
