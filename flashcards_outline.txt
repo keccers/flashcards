@@ -1,4 +1,4 @@
-#model
+#model :: Katherine & Dan
 #class Flashcards
 #--@term, @definition, @solved
 #Data within each card is stored as a hash. 
@@ -9,7 +9,7 @@
 #Deck will be initialized by a file name. 
 #Deck will create an array of Flashcard objects.
 
-#DECK METHODS:
+#DECK METHODS: Allen & Abraham
 
 #show_flashcard
 #--shows the definition from an individual flashcard from the shuffled deck.  
