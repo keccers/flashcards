@@ -1,0 +1,57 @@
+#model
+#class Flashcards
+#--@term, @definition, @solved
+#Data within each card is stored as a hash. 
+#Data will be returned from each flashcard as a string.
+#accessor_readers will be set up for each instance variable.  
+
+#class Deck
+#Deck will be initialized by a file name. 
+#Deck will create an array of Flashcard objects.
+
+#DECK METHODS:
+
+#show_flashcard
+#--shows the definition from an individual flashcard from the shuffled deck.  
+
+#guess
+#--takes user input, calls check_guess
+
+#check_guess
+#checks guess against the term, returns a true/false
+#--if user input == term, return true
+
+#shuffle
+#--randomizes the cards in the deck
+#--returns an array of flashcards in random order. 
+
+#skip
+#--moves on to the next card in the deck
+
+#class Controller
+#--initialized with deck, view
+
+#CONTROLLER METHODS:
+
+#run
+#--accept a command from the user as a parameter
+#calls execute
+
+#execute
+#--take the given command and call appropriate method from class Deck. 
+
+#sets up a loop for the run of our game. 
+#gets deck
+#shuffles deck
+#show_flashcard
+#guess
+#check_guess
+#.... repeat until exit 
+
+#----commands//actions
+#----"skip"//skips card
+#----"user input guess"//checks guess
+#----"exit"//exits program 
+
+#view
+#gets user input
